@@ -1,0 +1,21 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:JoinTheFunRails
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+CreatePassengers	db/migrate/20140212205318_create_passengers.rb	/^class CreatePassengers < ActiveRecord::Migration$/;"	c
+CreateRides	db/migrate/20140212205242_create_rides.rb	/^class CreateRides < ActiveRecord::Migration$/;"	c
+CreateTaxis	db/migrate/20140212204456_create_taxis.rb	/^class CreateTaxis < ActiveRecord::Migration$/;"	c
+JoinTheFunRails	config/application.rb	/^module JoinTheFunRails$/;"	m
+Passenger	app/models/passenger.rb	/^class Passenger < ActiveRecord::Base$/;"	c
+Ride	app/models/ride.rb	/^class Ride < ActiveRecord::Base$/;"	c
+Taxi	app/models/taxi.rb	/^class Taxi < ActiveRecord::Base$/;"	c
+change	db/migrate/20140212204456_create_taxis.rb	/^  def change$/;"	f	class:CreateTaxis
+change	db/migrate/20140212205242_create_rides.rb	/^  def change$/;"	f	class:CreateRides
+change	db/migrate/20140212205318_create_passengers.rb	/^  def change$/;"	f	class:CreatePassengers
+system!	bin/setup	/^def system!(*args)$/;"	f
+system!	bin/update	/^def system!(*args)$/;"	f
